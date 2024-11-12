@@ -6,3 +6,12 @@ document.addEventListener("DOMContentLoaded", function () {
         logo.style.opacity = 1;
     }, 500);
 });
+
+function toggleMenu() {
+    const menuItems = document.getElementById("menuItems");
+    if (menuItems.style.display === "none" || menuItems.style.display === "") {
+        menuItems.style.display = "block";
+    } else {
+        menuItems.style.display = "none";
+    }
+}
