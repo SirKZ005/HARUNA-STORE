@@ -53,6 +53,14 @@ section {
 .home, .about, .products, .contact {
     text-align: center;
 }
+#menuItems {
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+#menuItems li {
+    margin: 5px 0;
+}
 
 /* Products */
 .product-list {
